@@ -57,6 +57,8 @@ Vidim za vynshni potrebiteli
 
 Tyrsachka spored vsichki harakteristiki
 
+Razdel: brokeri
+Ime, Familia, Tel. Nomer
 
 realestate
 ==========
