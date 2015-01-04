@@ -1,3 +1,63 @@
+description
+===========
+Naemi
+
+Opisanie
+Naem
+Kvadratura
+Etaj
+Otoplenie
+
+
+Obzaveden
+S parkmqsto
+Asansior
+Luks
+SOT
+Klimatik
+Okabelqvane
+Internet
+
+
+Tel. na sobstvenika
+Adres na sobstvenika
+
+Snimki
+
+Dobavi, iztrii, redaktirai
+
+
+Prodajba
+
+Opisanie
+Naem
+Kvadratura
+Etaj
+Otoplenie
+
+
+Obzaveden
+S parkmqsto
+Asansior
+Luks
+SOT
+Klimatik
+Okabelqvane
+Internet
+
+
+Tel. na sobstvenika
+Adres na sobstvenika
+
+Snimki
+
+Dobavi, iztrii, redaktirai
+
+Vidim za vynshni potrebiteli
+
+Tyrsachka spored vsichki harakteristiki
+
+
 realestate
 ==========
 
