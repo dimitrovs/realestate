@@ -6,7 +6,7 @@ Ext.define("app.view.MainTabPanel", {
   requires: ["app.view.TestPanel1"],
   controller: "app.controller.MainController",
   cls: "titletabs",
-  padding: "15, 0, 0, 0",
+  padding: "0, 0, 0, 0",
   activeTab: 0,
   autoScroll: false,
   layout: "anchor",
