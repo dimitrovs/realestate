@@ -1,4 +1,4 @@
-description
+Realtor.cf
 ===========
 
 Системата се състои от 4 раздела: 
@@ -6,7 +6,9 @@ description
   Оферти 
   Брокери
   Клиенти
-  
+
+0. Ezik: sistemata triabva da poddyrja razlichni ezici
+
 1. Търсачката съдържа следните параметри:
    - Вид на офертата: Наем, Продажба
    - Квадратура
