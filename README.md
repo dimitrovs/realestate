@@ -1,64 +1,57 @@
 description
 ===========
-Naemi
 
-Opisanie
-Naem
-Kvadratura
-Etaj
-Otoplenie
+Системата се състои от 3 раздела: 
+  Търсачка
+  Оферти
+  - Наеми
+  - Продажби
+  Брокери
+  Клиенти
+  
+1. Търсачката съдържа следните параметри:
+   - Вид на офертата: Наем, Продажба
+   - Населено място
+   - Цена: от, до, валута
+   - 
+2. Офертите съдържат:
+   - Вид: Наем/Продажба
+   - Заглавие
+   - Адрес
+   - Наем, валута
+   - Квадратура
+   - Етаж
+   - Описание
+   - Квадратура
+   - Снимки
+   
+   Особености:
+   - Обзаведен/Необзаведен
+   - С паркмясто
+   - Асансьор
+   - Лукс
+   - СОТ
+   - Климатик
+   - Окабеляване
+   - Интернет
+   - Видим за външни потребители
+   
+Опции - добави/изтрий/редактирай
 
+3. Брокери:
+   - Име
+   - Телефон
+   - Потребителско име
+   - Парола
 
-Obzaveden
-S parkmqsto
-Asansior
-Luks
-SOT
-Klimatik
-Okabelqvane
-Internet
+Опции - добави/изтрий/редактирай
+   
+4. Клиенти
+   - Име
+   - Телефон
 
+Опции - добави/изтрий/редактирай
 
-Tel. na sobstvenika
-Adres na sobstvenika
-
-Snimki
-
-Dobavi, iztrii, redaktirai
-
-
-Prodajba
-
-Opisanie
-Naem
-Kvadratura
-Etaj
-Otoplenie
-
-
-Obzaveden
-S parkmqsto
-Asansior
-Luks
-SOT
-Klimatik
-Okabelqvane
-Internet
-
-
-Tel. na sobstvenika
-Adres na sobstvenika
-
-Snimki
-
-Dobavi, iztrii, redaktirai
-
-Vidim za vynshni potrebiteli
-
-Tyrsachka spored vsichki harakteristiki
-
-Razdel: brokeri
-Ime, Familia, Tel. Nomer
 
 realestate
 ==========
