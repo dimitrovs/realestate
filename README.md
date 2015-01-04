@@ -65,6 +65,8 @@ realestate
 
 Real Estate Platform
 
+MySQL password: GJVQbc4DneXm4gA
+
 Video:
 
 https://www.youtube.com/watch?v=RJBWA34E7q4
