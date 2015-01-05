@@ -21,7 +21,7 @@ Ext.define("app.view.MainTabPanel", {
         }, {
           xtype: "panel",
           itemId: "panel2",
-          title: "Panel 2",
+          title: localized['testVar1'],
           anchor: "100% 100%"
         }
       ]

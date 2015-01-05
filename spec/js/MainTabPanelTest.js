@@ -32,7 +32,7 @@ describe("The Main Tab Panel...", function() {
       return expect(viewController.getView() === view).toBeTruthy();
     });
     it("allows panel title to be changed", function() {
-      expect(viewController.getPanel2().title).toEqual("Panel 2");
+      expect(viewController.getPanel2().title).toEqual(localized['testVar1']);
       viewController.updatePanelTitle("My New Title");
       return expect(viewController.getPanel2().title).toEqual("My New Title");
     });

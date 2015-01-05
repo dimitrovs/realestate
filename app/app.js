@@ -6,7 +6,7 @@ Ext.Loader.setConfig({
 
 Ext.application({
   autoCreateViewport: false,
-  name: "Realtor"
+  name: "Realtor",
 });
 
 Ext.require(["app.view.Viewport", "app.store.CompanyStore"]);
