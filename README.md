@@ -35,6 +35,7 @@ Realtor.cf
    - Климатик
    - Интернет
    - Видим за външни потребители
+  https://github.com/elwebmaster/realestate/wiki/Listing
    
 Опции - добави/изтрий/редактирай
 
@@ -43,6 +44,7 @@ Realtor.cf
    - Телефон
    - Потребителско име
    - Парола
+   https://github.com/elwebmaster/realestate/wiki/Agent-(User)
 
 Опции - добави/изтрий/редактирай
    
