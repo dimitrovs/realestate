@@ -1,18 +1,26 @@
 /**
-* User.js
-*
-* @description :: TODO: You might write a short summary of how this model works and what it represents here.
-* @docs        :: http://sailsjs.org/#!documentation/models
-*/
+ * User.js
+ *
+ * @description :: Broker agents with access to the system.
+ * @docs        :: https://github.com/elwebmaster/realestate/wiki/Agent-(User)
+ */
 
 module.exports = {
 
   attributes: {
-email: {
+    username: {
       type: 'string',
       unique: true,
       required: true
     },
+    email: {
+      type: 'string',
+      unique: true,
+      required: true
+    },
+    phone: {
+      type: 'string',
+    },    
     password: {
       type: 'string',
       required: true,
@@ -20,7 +28,7 @@ email: {
     }
   },
 
-  beforeCreate: function (attrs, next) {
+  beforeCreate: function(attrs, next) {
     var bcrypt = require('bcrypt');
 
     bcrypt.genSalt(10, function(err, salt) {
@@ -35,4 +43,3 @@ email: {
     });
   }
 };
-

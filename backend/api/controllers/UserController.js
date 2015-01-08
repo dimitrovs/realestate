@@ -2,14 +2,14 @@
  * UserController
  *
  * @description :: Server-side logic for managing users
- * @help        :: See http://links.sailsjs.org/docs/controllers
+ * @help        :: See https://github.com/elwebmaster/realestate/wiki/Agent-(User)
  */
 
 module.exports = {
 	login: function (req, res) {
     var bcrypt = require('bcrypt');
 
-    User.findOneByEmail(req.body.email).exec(function (err, user) {
+    User.findOneByUsername(req.body.username).exec(function (err, user) {
       if (err) res.json({ error: 'DB error' }, 500);
 
       if (user) {
