@@ -35,6 +35,7 @@ Realtor.cf
    - Климатик
    - Интернет
    - Видим за външни потребители
+  https://github.com/elwebmaster/realestate/wiki/Listing
    
 Опции - добави/изтрий/редактирай
 
@@ -43,6 +44,7 @@ Realtor.cf
    - Телефон
    - Потребителско име
    - Парола
+   https://github.com/elwebmaster/realestate/wiki/Agent-(User)
 
 Опции - добави/изтрий/редактирай
    
@@ -84,3 +86,7 @@ https://www.youtube.com/watch?v=yUvJdAmc0Nk
 https://www.youtube.com/watch?v=u7vbwUlS668
 
 https://www.youtube.com/watch?v=FbU0-nDkKS8
+
+Reports
+
+http://bit.do/zadachi
