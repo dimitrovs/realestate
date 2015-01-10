@@ -8,6 +8,9 @@
 module.exports = {
 
   attributes: {
+    forListing: {
+      model: 'Listing'
+    },
 
   }
 };

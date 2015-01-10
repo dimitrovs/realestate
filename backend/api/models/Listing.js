@@ -89,11 +89,11 @@ module.exports = {
     photos: {
       collection: 'Photo',
       via: 'forListing'
-    }
+    },
     
     city: {
       model: 'City'
-    }
+    },
 
     user: {
       model: 'User'
