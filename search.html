@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sencha.io/ext-4.2.0-gpl/resources/css/ext-all.css"/>
+    <script type="text/javascript" charset="utf-8" src="http://cdn.sencha.io/ext-4.2.0-gpl/ext-all-dev.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://cdn.sencha.io/ext-4.2.0-gpl/locale/ext-lang-es.js"></script>
+		<script>
+			Ext.onReady(function () {
+				Ext.create("Ext.Panel",{
+					title: "Search",
+					width:300,
+					bodyPadding:15,
+					items: [
+						Ext.create('Ext.form.field.ComboBox', { 
+							editable:false,
+   							fieldLabel: 'Offer Type', 
+    						store: ['Rent', 'Sell'] 
+						}),
+						Ext.create("Ext.form.field.Text",{
+							fieldLabel:"Min Land",
+							id:"minlandtext"
+						}),
+						Ext.create('Ext.form.field.ComboBox', { 
+							editable:false,
+   							fieldLabel: 'City', 
+    						store: ['Madrid', 'Berlin', 'London'] 
+						}),
+						Ext.create("Ext.form.field.Text",{
+							fieldLabel:"Price",
+							id:"pricetext"
+						}),
+						Ext.create("Ext.Button",{
+							text:"Search"
+						})
+					],
+					renderTo: Ext.getBody()
+				});
+			});
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
