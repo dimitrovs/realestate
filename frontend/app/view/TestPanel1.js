@@ -2,9 +2,10 @@
 
 Ext.define("Realtor.view.TestPanel1", {
   extend: "Ext.panel.Panel",
-  alias: "widget.jasmineExample-view-testpanel1",
+  alias: "widget.realtor-view-testpanel1",
+  requires: ["Realtor.view.Listing"],
   controller: "Realtor.controller.TestPanel1Controller",
-  inject: ["companyStore"],
+  inject: ["listingStore"],
   layout: "anchor",
   config: {
     companyStore: null,
@@ -14,50 +15,7 @@ Ext.define("Realtor.view.TestPanel1", {
     Ext.applyIf(this, {
       items: [
         {
-          xtype: "container",
-          itemId: "gridContainer",
-          layout: "anchor",
-          anchor: "100% 100%",
-          items: [
-            {
-              xtype: "gridpanel",
-              itemId: "companyGridPanel",
-      		  store: this.getCompanyStore(),
-              columnLines: true,
-              anchor: "100% 100%",
-              columns: [
-                {
-                  xtype: "gridcolumn",
-                  dataIndex: "company",
-                  text: "Company",
-                  flex: 1
-                }, {
-                  xtype: "numbercolumn",
-                  dataIndex: "price",
-                  text: "Price",
-                  renderer: Ext.util.Format.usMoney
-                }, {
-                  xtype: "numbercolumn",
-                  dataIndex: "change",
-                  text: "Change",
-                  format: "0.00"
-                }, {
-                  xtype: "numbercolumn",
-                  dataIndex: "pctChange",
-                  text: "% Change",
-                  format: "0.00"
-                }, {
-                  xtype: "datecolumn",
-                  dataIndex: "lastChange",
-                  text: "Last Change"
-                }, {
-                  xtype: "gridcolumn",
-                  dataIndex: "industry",
-                  text: "Industry"
-                }
-              ]
-            }
-          ]
+          xtype: "realtor-view-listing"
         }
       ]
     });

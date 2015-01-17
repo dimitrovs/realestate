@@ -9,7 +9,7 @@ Ext.define("Realtor.view.Viewport", {
     Ext.applyIf(this, {
       items: [
         {
-          xtype: "jasmineExample-view-mainTabPanel"
+          xtype: "realtor-view-mainTabPanel"
         }
       ]
     });

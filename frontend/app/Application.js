@@ -4,7 +4,7 @@
 
 Ext.define("Realtor.Application", {
   extend: "Deft.mvc.Application",
-  requires: ["Realtor.config.AppConfig", "Realtor.view.Viewport", "Realtor.store.CompanyStore", "Realtor.context.CompanyContext", "Realtor.service.CompanyService"],
+  requires: ["Realtor.config.AppConfig", "Realtor.view.Viewport", "Realtor.store.ListingStore", "Realtor.context.ListingContext", "Realtor.service.ListingService"],
   /**
   	* init() runs when Ext.onReady() is called.
   */
@@ -32,9 +32,9 @@ Ext.define("Realtor.Application", {
           }
         ]
       },
-      companyStore: "Realtor.store.CompanyStore",
-		companyContext: "Realtor.context.CompanyContext",
-		companyService: "Realtor.service.CompanyService"
+      listingStore: "Realtor.store.ListingStore",
+		listingContext: "Realtor.context.ListingContext",
+		listingService: "Realtor.service.ListingService"
     };
     return config;
   },

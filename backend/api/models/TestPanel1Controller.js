@@ -3,11 +3,11 @@
 */
 
 Ext.define("Realtor.controller.TestPanel1Controller", {
-  extend: "Realtor.controller.AbstractListingController",
+  extend: "Realtor.controller.AbstractCompanyController",
   observe: {},
   control: {},
   config: {
-    currentListing: null
+    currentCompany: null
   },
   init: function() {
     return this.callParent(arguments);

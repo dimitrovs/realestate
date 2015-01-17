@@ -2,7 +2,7 @@
 
 Ext.define("Realtor.view.MainTabPanel", {
   extend: "Ext.tab.Panel",
-  alias: "widget.jasmineExample-view-mainTabPanel",
+  alias: "widget.realtor-view-mainTabPanel",
   requires: ["Realtor.view.TestPanel1"],
   controller: "Realtor.controller.MainController",
   cls: "titletabs",
@@ -14,9 +14,9 @@ Ext.define("Realtor.view.MainTabPanel", {
     Ext.applyIf(this, {
       items: [
         {
-          xtype: "jasmineExample-view-testpanel1",
+          xtype: "realtor-view-testpanel1",
           itemId: "testPanel",
-          title: "Companies",
+          title: "Listings",
           anchor: "100% 100%"
         }, {
           xtype: "panel",
